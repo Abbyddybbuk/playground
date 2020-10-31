@@ -2,7 +2,7 @@
 //     return num * num
 // }
 
-const { ENETDOWN } = require("constants")
+// const { ENETDOWN } = require("constants")
 
 const square = (num) => num * num
 console.log(square(67))
