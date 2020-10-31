@@ -17,7 +17,7 @@ const event = {
     //        console.log(guest + ' is attending ' + this.name)
     //     })
     // }
-    printGuestList() {
+    printGuestList() {//this way we are defining above function in es6 format
         console.log('Guest List for ' + this.name)
 
         this.guestList.forEach((guest) => {
