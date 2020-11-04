@@ -11,3 +11,15 @@ const geocode = (address, callback) => {
 geocode('Gwalior', (obj) => {
    console.log(obj)
 })
+
+
+const add = (num1, num2, summation) => {
+    setTimeout(()=> {
+        summation(num1, num2)
+    }, 2000)
+}
+
+add(34, 56, (a, b)=> {
+    let sum = a + b
+    console.log(`Sum of two numbers is: ${sum}`)
+})
