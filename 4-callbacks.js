@@ -1,7 +1,7 @@
 const geocode = (address, callback) => {
     setTimeout(() => {
         const data = {
-            latitude: 0,
+            latitude: 2,
             longitude: 0
         }
         callback(data)
