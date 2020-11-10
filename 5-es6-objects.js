@@ -3,7 +3,7 @@
  const userAge = 35
 
  const user = {
-     name,//Shorthand syntax where the poperty name is taken from variable declared above
+     name,//Shorthand syntax where the property name is taken from variable declared above
      age: userAge,
      location: 'Bangalore'
  }
@@ -30,7 +30,7 @@
 
 
  //Destructuring the function
- const transaction = (type, {label, price, rating}) => {
+ const transaction = (type, {label, price=0, rating}={}) => {
      console.log(type, label, price, rating)
  }
 
