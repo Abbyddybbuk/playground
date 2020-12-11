@@ -7,7 +7,7 @@
 const square = (num) => num * num
 console.log(square(67))
 
-const event = {
+const party = {
     name: 'Birthday Party',
     guestList: ['Kanupriya', 'Abhijeet', 'Ayaan'],
     // printGuestList: function() {
@@ -26,4 +26,4 @@ const event = {
     }    
 }
 
-event.printGuestList()
+party.printGuestList()
